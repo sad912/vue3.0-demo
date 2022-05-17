@@ -1,8 +1,13 @@
-# Vue 3 + Vite
+# Vue3.0 Demo
+此仓库记录了阅读 [Vue3 官方文档](https://staging-cn.vuejs.org/guide/introduction.html)的过程。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-# vue3.0-demo
+## 指南
+### 开始
+#### 简介
+* Vue 提供了一套声明式的、组件化的编程模型。
+* 渐进式框架。
+* SFC。
+* Vue 的组件有两种风格的 API ：选项式 API 和 组合式 API。
+  * 选项式 API 通过包含多个选项的对象来描述组件的逻辑，如 `data`、`methods` 和 `mounted`。
+  * 组合式 API 通常配合 `<script setup>` 使用，在内部编写逻辑函数。
+#### 快速开始
