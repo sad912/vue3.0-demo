@@ -1,6 +1,6 @@
 # Vue3.0 Demo
 
-此仓库记录了阅读 [Vue3 官方文档](https://staging-cn.vuejs.org/guide/introduction.html)的过程。
+此仓库记录了阅读 [Vue3 官方文档](https://staging-cn.vuejs.org/guide/introduction.html) 的过程。
 
 ## 指南
 
@@ -445,3 +445,8 @@ export default {
 * 在局部注册组件时也可以使用 `defineAsyncComponent`。
 * 异步组件提供了一些高级选项，`loader` 选项为返回 Promise 的加载函数；`loadingComponent` 选项为加载异步组件时使用的组件；`delay`
 选项为延迟时间，默认为 200ms；`errorComponent` 选项为加载失败后展示的组件；`timeout` 选项为超时时间设置，默认为无限。
+
+### 可重用性
+
+* 通过组合式函数和 `ref` 类型作为参数的函数可以实现良好的响应式封装过程。
+* 
